@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &383666206882189138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5257078517651656487}
+  - component: {fileID: 2147066240506152938}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5257078517651656487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383666206882189138}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2147066240506152938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383666206882189138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b02451c38eeb34a994903a404a0fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: CoinPickSound
+    clip: {fileID: 8300000, guid: 9f710a25a3e6de244aac6024027b7b3b, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOverSound
+    clip: {fileID: 8300000, guid: 2aabf89b7ccf7bf428133489d9e07250, type: 3}
+    volume: 20
+    loop: 0
+    source: {fileID: 0}
+  - name: GameplaySong
+    clip: {fileID: 8300000, guid: 54c60a25a94b74443ad67d5ca2026e8f, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: ButtonClickSound
+    clip: {fileID: 8300000, guid: bac303a70e91b9846af981de68b5daae, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: GameCoverMusic
+    clip: {fileID: 8300000, guid: 8a2ea2caf905e7c42bf2ebe6f87210a7, type: 3}
+    volume: 0
+    loop: 0
+    source: {fileID: 0}
+  backgroundSongs: []
+  musicSource: {fileID: 0}

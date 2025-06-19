@@ -27,15 +27,16 @@
 
 ## 📁 Project Structure
 
-EndlessRunner/
+```plaintext
+MelodyRush/
 ├── Assets/
-│ ├── Audio/ # Music and SFX
-│ ├── Materials/ # Game materials
-│ ├── Prefabs/ # Reusable game objects
-│ ├── Scenes/ # Main scenes (e.g., MainMenu, GameScene)
-│ ├── Scripts/ # Game logic and controllers
-│ ├── UI/ # Canvas, buttons, and HUD
-│ └── Animations/ # Character and environment animations
-├── ProjectSettings/
+│   ├── Audio/              # Music and sound effects
+│   ├── Materials/          # Materials and shaders
+│   ├── Prefabs/            # Prefab objects
+│   ├── Scenes/             # Game and menu scenes
+│   ├── Scripts/            # Game logic (C# scripts)
+│   ├── UI/                 # User interface elements
+│   └── Animations/         # Character/environment animations
 ├── Packages/
+├── ProjectSettings/
 └── README.md
